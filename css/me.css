@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.content {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+header {
+  height: 0.47rem;
+  background: url(../img/bg.png) repeat left top;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 0.13rem; }
+  header .mh-left {
+    width: 2.11rem;
+    display: flex; }
+    header .mh-left .pic img {
+      width: 0.47rem;
+      height: 0.47rem; }
+    header .mh-left .msg {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0.15rem; }
+      header .mh-left .msg h4 {
+        color: #fff;
+        font-size: 14px;
+        margin: 0.05rem 0; }
+      header .mh-left .msg span {
+        padding: 0.02rem 0.07rem;
+        color: #fff;
+        margin-left: 0;
+        text-align: center;
+        display: block;
+        width: 0.58rem;
+        background: #b5a27b;
+        border-radius: 0.03rem;
+        font-size: 12px;
+        white-space: nowrap; }
+  header .mh-right {
+    width: 0.4rem;
+    height: 0.4rem;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    header .mh-right img {
+      width: 0.2rem;
+      height: 0.2rem; }
+
+.indent {
+  background: #fff;
+  padding-top: 0.17rem; }
+  .indent .mi-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dedbde;
+    padding: 0 0.1rem 0.19rem; }
+    .indent .mi-top li {
+      font-size: 16px;
+      color: #313031; }
+      .indent .mi-top li img {
+        width: 0.07rem;
+        height: 0.12rem; }
+  .indent .mi-bot {
+    width: 100%;
+    padding: 0.13rem 0;
+    font-size: 14px;
+    color: #313031;
+    display: flex; }
+    .indent .mi-bot li {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      color: #7b7d7b; }
+      .indent .mi-bot li i {
+        font-size: 22px !important; }
+      .indent .mi-bot li span {
+        height: 0.25rem;
+        line-height: 0.3rem; }
+
+.service {
+  background: #fff;
+  margin: 0.1rem 0; }
+  .service p {
+    padding: 0.17rem;
+    font-size: 16px;
+    color: #313031; }
+  .service ul {
+    overflow: hidden; }
+    .service ul li {
+      float: left;
+      width: 25%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border-top: 1px solid #dedbde; }
+      .service ul li i {
+        font-size: 30px;
+        margin: 0.2rem 0 0.11rem;
+        color: #ff8663; }
+      .service ul li .orange {
+        color: #ffb642; }
+      .service ul li .blue {
+        color: #73a6e7; }
+      .service ul li span {
+        font-size: 14px;
+        color: #313031; }
+      .service ul li .add {
+        height: 0.1rem;
+        margin: 0.08rem 0 0.17rem;
+        font-size: 12px;
+        color: #8c8e8c; }
+
+/*# sourceMappingURL=me.css.map */

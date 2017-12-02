@@ -1,0 +1,85 @@
+body {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+header {
+  background: #fffbff;
+  padding: 0.05rem 0.15rem;
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid #dedbde; }
+  header div {
+    width: 100%;
+    height: 0.33rem;
+    line-height: 0.33rem;
+    background: #efefef;
+    color: #7b7d7b;
+    font-size: 14px;
+    border-radius: 0.05rem;
+    letter-spacing: 0.005rem; }
+
+.content {
+  display: flex;
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.type-name {
+  width: 0.72rem;
+  text-align: center;
+  overflow: auto;
+  overflow-x: visible;
+  visibility: visible; }
+  .type-name li {
+    height: 0.25rem;
+    line-height: 0.25rem;
+    margin: 0.18rem 0;
+    padding: 0.05rem 0;
+    font-size: 14px;
+    color: #313031;
+    border-left: 0.03rem solid #fff; }
+  .type-name .red {
+    color: #b52829;
+    border-left: 0.03rem solid #b52829; }
+
+.type-details {
+  flex: 1;
+  padding: 0.15rem;
+  overflow: auto;
+  overflow-x: visible;
+  visibility: visible;
+  border-left: 2px solid #dedbde; }
+  .type-details .small-type .st-top img {
+    width: 100%;
+    border-radius: 0.05rem; }
+  .type-details .small-type .st-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem 0; }
+    .type-details .small-type .st-center span {
+      width: 0.2rem;
+      height: 0.01rem;
+      background: #dedbde; }
+    .type-details .small-type .st-center p {
+      font-size: 16px;
+      color: #313031;
+      margin: 0 0.09rem; }
+  .type-details .small-type .st-bot {
+    overflow: hidden; }
+    .type-details .small-type .st-bot li {
+      width: 33.33%;
+      float: left;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .type-details .small-type .st-bot li a {
+        font-size: 14px;
+        color: #313031; }
+        .type-details .small-type .st-bot li a img {
+          width: 0.8rem;
+          height: 0.8rem; }
+
+/*# sourceMappingURL=category.css.map */

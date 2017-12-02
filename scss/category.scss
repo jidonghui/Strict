@@ -1,0 +1,129 @@
+body{
+    background: #fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+//header
+header{
+  background:#fffbff;
+  padding:0.05rem 0.15rem;
+  display:flex;
+  text-align:center;
+  border-bottom:1px solid #dedbde;
+  div{
+      width:100%;
+      height:0.33rem;
+      line-height:0.33rem;
+      background:#efefef;
+      color:#7b7d7b;
+      font-size:14px;
+      border-radius:0.05rem;
+      letter-spacing: 0.005rem;
+  }
+}
+//content
+.content{
+    display:flex;
+    flex:1;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.type-name{
+    width:0.72rem;
+    text-align:center;
+    overflow: auto;
+    overflow-x: visible;
+    visibility: visible;
+    li{
+        height:0.25rem;
+        line-height:0.25rem;
+        margin:0.18rem 0;
+        padding:0.05rem 0;
+        font-size:14px;
+        color:#313031;
+        border-left:0.03rem solid #fff;
+    }
+    .red{
+        color:#b52829;
+        border-left:0.03rem solid #b52829;
+    }
+}
+.type-details{
+    flex:1;
+    padding:0.15rem;
+    overflow: auto;
+    overflow-x: visible;
+    visibility: visible;
+    border-left:2px solid #dedbde;
+    .small-type{
+        .st-top{
+            img{
+                width:100%;
+                border-radius:0.05rem;
+            }
+        }
+        .st-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:0.2rem 0;
+            span{
+                width:0.2rem;
+                height:0.01rem;
+                background:#dedbde;
+            }
+            p{
+                font-size:16px;
+                color:#313031;
+                margin:0 0.09rem;
+            }
+        }
+        .st-bot{
+            overflow: hidden;
+            li{
+                width: 33.33%;
+                float:left;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+               a{
+                   font-size:14px;
+                   color:#313031;
+                   img{
+                       width:0.8rem;
+                       height:0.8rem;
+                   }
+               }
+            }
+        }
+    }
+}
+
+//.swiper-category{
+//    height:5.75rem;
+//}
+//.swiper-slide {
+//
+//    over: 6.37rem!important;
+//}
+//.swiper-slide-active
+//{     height: 6.37rem!important;
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
